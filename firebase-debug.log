@@ -1,0 +1,22 @@
+[debug] [2018-04-16T04:17:38.653Z] ----------------------------------------------------------------------
+[debug] [2018-04-16T04:17:38.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-16T04:17:38.684Z] CLI Version:   3.18.4
+[debug] [2018-04-16T04:17:38.684Z] Platform:      win32
+[debug] [2018-04-16T04:17:38.684Z] Node Version:  v8.11.1
+[debug] [2018-04-16T04:17:38.700Z] Time:          Mon Apr 16 2018 12:17:38 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-16T04:17:38.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-16T04:17:38.872Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-16T04:17:38.872Z] > authorizing via signed-in user
+[debug] [2018-04-16T04:17:38.872Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-16T04:17:38.872Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/txLCdG78rDsW8bPA0QeQtfkrxu4t66DcTN5IcWB_tdY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 16 2018 12:17:38 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-16T04:17:39.732Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-16T04:17:39.872Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/noteapp-test  
+  
+ Mon Apr 16 2018 12:17:39 GMT+0800 (Taipei Standard Time)
