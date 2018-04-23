@@ -47,3 +47,42 @@
 [info] +  hosting: Local server: http://localhost:5000
 
 [debug] [2018-04-16T04:18:15.917Z] Parsing function triggers
+[debug] [2018-04-20T13:21:56.290Z] ----------------------------------------------------------------------
+[debug] [2018-04-20T13:21:56.306Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-20T13:21:56.306Z] CLI Version:   3.18.4
+[debug] [2018-04-20T13:21:56.306Z] Platform:      win32
+[debug] [2018-04-20T13:21:56.306Z] Node Version:  v8.11.1
+[debug] [2018-04-20T13:21:56.306Z] Time:          Fri Apr 20 2018 21:21:56 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:21:56.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-20T13:21:56.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-20T13:21:56.368Z] > authorizing via signed-in user
+[debug] [2018-04-20T13:21:56.368Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/noteapp-test  
+  
+ Fri Apr 20 2018 21:21:56 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:21:57.383Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T13:21:57.383Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/noteapp-test/tokens  
+  
+ Fri Apr 20 2018 21:21:57 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:21:58.207Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T13:21:58.207Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/noteapp-test  
+  
+ Fri Apr 20 2018 21:21:58 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:21:59.255Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\ADMIN\Desktop\disciply\noteapp-test'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-20T13:22:12.478Z] Fetching environment
+[debug] [2018-04-20T13:22:12.549Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/516532014525:getServerAppConfig  
+  
+ Fri Apr 20 2018 21:22:12 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:22:12.549Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/516532014525/clients/_:getWebAppConfig  
+  
+ Fri Apr 20 2018 21:22:12 GMT+0800 (Taipei Standard Time)
+[debug] [2018-04-20T13:22:13.309Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T13:22:13.650Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T13:22:13.650Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
